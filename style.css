@@ -14,6 +14,12 @@ body {
     text-align: center;
     margin: 3% auto;
 }
+
+@media screen and (max-width: 800px){
+    .intro{
+        width: 90%;
+    }
+}
   
 #root {
     max-width: 1200px;
