@@ -24,7 +24,7 @@ fetch("https://api.edamam.com/search?q=spaghetti&app_id=893cba70&app_key=ebba3d9
 
 var app = document.getElementById("root");
 
-getResult = (result) => {
+function getResult (result) {
 
     result.forEach(result => {
         var foodDiv = document.createElement('div');
