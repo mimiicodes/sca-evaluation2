@@ -33,6 +33,7 @@ function getResult (result) {
         foodTitle.innerText = result.recipe.label;
         var foodImage = document.createElement("img");
         foodImage.src = result.recipe.image;
+        foodImage.alt = "img";
         var foodSource = document.createElement('p');
         foodSource.innerText = "Source: " + result.recipe.source;
         var cautions = document.createElement('b');
