@@ -3,8 +3,8 @@
 }
   
 body {
-    color: gray;
-    background: #F6F6F6;
+    color: #000000;
+    background:#FFFFFF;
     line-height: 120%;
     font-family: 'Dosis', sans-serif;
 }
@@ -13,12 +13,6 @@ body {
     width: 50%;
     text-align: center;
     margin: 3% auto;
-}
-
-@media screen and (max-width: 800px){
-    .intro{
-        width: 90%;
-    }
 }
   
 #root {
@@ -35,18 +29,31 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid gray;
+    width: 25%;
+    height: 40%;
 }
 
 img {
-    width: 40%;
-    border-radius: 8%;
+    border-radius: 20px;
     padding: 5% 0;
+    width: 50%;
+    height: 50%;
 }
 
 a{
-    color: gray;
+    color: #000000;
 }
 
 .red{
     color: darkred;
+}
+
+@media screen and (max-width: 800px) {
+    .intro{
+        width: 90%;
+    }
+    .main {
+        width: 90%;
+        height: fit-content;
+    }
 }
